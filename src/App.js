@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="container">
       <div className="main-box">
-        <img src={Aura} className="aura-img" alt="aura" />
+        <img src={Aura} className="aura-img" alt="main-img" />
         <div className="info">
           <h1>Welcome</h1>
           <p>
