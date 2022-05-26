@@ -42,7 +42,6 @@
   align-items: center;
   margin: 100px 0;
 }
-
 .main-box {
   width: 1000px;
   height: 700px;
@@ -51,6 +50,15 @@
   text-align: center;
   margin-bottom: 40px;
   padding: 40px;
+  position: relative;
+}
+.aura-img {
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  right: -200px;
+  top: -100px;
 }
 .info {
   text-align: start;
@@ -94,3 +102,5 @@
   margin: 10px 0;
   text-decoration: none;
 }
+
+/* IMAGE */

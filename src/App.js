@@ -2,6 +2,7 @@ import "./App.css";
 import { ReactComponent as InstagramIcon } from "./assets/instagram_svg.svg";
 import { ReactComponent as EpekworksIcon } from "./assets/epeklogo.svg";
 import { ReactComponent as LinkedinIcon } from "./assets/linkedin.svg";
+import Aura from "./assets/Aura.jpeg";
 
 console.log();
 
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="container">
       <div className="main-box">
+        <img src={Aura} className="aura-img" />
         <div className="info">
           <h1>Welcome</h1>
           <p>
