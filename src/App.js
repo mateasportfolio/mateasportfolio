@@ -69,7 +69,6 @@ function App() {
           </a>
         </div>
       </div>
-      xe
     </div>
   );
 }
