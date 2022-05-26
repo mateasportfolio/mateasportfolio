@@ -3,13 +3,19 @@ import { ReactComponent as InstagramIcon } from "./assets/instagram_svg.svg";
 import { ReactComponent as EpekworksIcon } from "./assets/epeklogo.svg";
 import { ReactComponent as LinkedinIcon } from "./assets/linkedin.svg";
 import Aura from "./assets/Aura.jpeg";
-
-console.log();
+import { useState } from "react";
 
 function App() {
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
   return (
-    <div className="container">
+    <div className={`container ${isDarkMode ? "dark" : "light"}`}>
       <div className="main-box">
+        <input
+          class="l"
+          type="checkbox"
+          onClick={() => setIsDarkMode(!isDarkMode)}
+        ></input>
         <img src={Aura} className="aura-img" alt="main-img" />
         <div className="info">
           <h1>Welcome</h1>
@@ -25,14 +31,12 @@ function App() {
             <b>new Skills and Technology</b>
           </p>
         </div>
-
         <div className="icons">
           <InstagramIcon />
           <EpekworksIcon />
           <LinkedinIcon />
         </div>
       </div>
-
       <div className="second-box">
         <div className="link">
           <h3>FreeCodeCamp</h3>
