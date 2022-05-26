@@ -40,7 +40,11 @@ function App() {
       <div className="second-box">
         <div className="link">
           <h3>FreeCodeCamp</h3>
-          <a href="https://www.freecodecamp.org/matea" target="_blank">
+          <a
+            href="https://www.freecodecamp.org/matea"
+            target="_blank"
+            rel="noreferrer"
+          >
             https://www.freecodecamp.org/matea
           </a>
         </div>
@@ -49,13 +53,18 @@ function App() {
           <a
             href="https://www.linkedin.com/in/matea-tabak-83440a230/"
             target="_blank"
+            rel="noreferrer"
           >
             https://www.linkedin.com/in/matea-tabak-83440a230/
           </a>
         </div>
         <div className="link">
           <h3>Netlify</h3>
-          <a href="https://dulcet-tiramisu-8b2b08.netlify.app" target="_blank">
+          <a
+            href="https://dulcet-tiramisu-8b2b08.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
             https://dulcet-tiramisu-8b2b08.netlify.app
           </a>
         </div>
