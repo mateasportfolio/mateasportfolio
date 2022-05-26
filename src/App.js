@@ -40,15 +40,15 @@ function App() {
       <div className="second-box">
         <div className="link">
           <h3>FreeCodeCamp</h3>
-          <a href="url">https://www.freecodecamp.org/matea</a>
+          <a href="https://www.freecodecamp.org/matea"> </a>
         </div>
         <div className="link">
           <h3>LinkedIN</h3>
-          <a href="url">https://www.linkedin.com/in/matea-tabak-83440a230/</a>
+          <a href="https://www.linkedin.com/in/matea-tabak-83440a230/"></a>
         </div>
         <div className="link">
           <h3>Netlify</h3>
-          <a href="url">https://dulcet-tiramisu-8b2b08.netlify.app/</a>
+          <a href="https://dulcet-tiramisu-8b2b08.netlify.app">/</a>
         </div>
       </div>
     </div>
