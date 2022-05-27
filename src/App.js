@@ -23,7 +23,7 @@ function App() {
             I’m<b> Matea</b>
           </p>
           <p>
-            I'm a future Mediadesigner / Webdesigner, having an Internship at
+            I'm a future Mediadesigner / Webdesigner,having an Internship at
             <b> Epekworks.com.</b>
           </p>
           <p>
