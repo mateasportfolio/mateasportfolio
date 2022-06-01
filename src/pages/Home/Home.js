@@ -16,7 +16,8 @@ const Home = () => {
             I’m<b> Matea</b>
           </p>
           <p>
-            I'm a future Mediadesigner / Webdesigner,I amhaving an Internship at
+            I'm a future Mediadesigner / Webdesigner,I am having an Internship
+            at
             <b> Epekworks.com.</b>
           </p>
           <p>
