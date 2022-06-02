@@ -3,7 +3,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import { Code } from "./pages/Code/Code";
+import { CodePage } from "./pages/Code/Code";
 import { Hosting } from "./pages/Hosting/Hosting";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/code">
-          <Code />
+          <CodePage />
         </Route>
         <Route path="/hosting">
           <Hosting />

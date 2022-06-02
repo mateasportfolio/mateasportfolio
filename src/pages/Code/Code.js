@@ -1,23 +1,17 @@
 import React from "react";
 import "./style.css";
+import { data } from "./data";
 
-export const Code = () => {
+export const CodePage = () => {
+  const list = data.map((item) => <Section item={item} key={item.id} />);
+  return <div className="code-page">{list}</div>;
+};
+
+const Section = ({ item }) => {
   return (
-    <div className="code-page">
-      <div class="box">Netlyfi</div>
-      <div class="box">
-        Netlify lets you link a GitHub, GitLab, Bitbucket, or Azure DevOps
-        repository to a site for continuous deployment. (Azure DevOps is
-        currently in the beta stage.) Each time you push to your Git provider,
-        Netlify runs a build with your tool of choice and deploys the result to
-        our powerful CDN. Netlify operates through your GitHub repository and
-        runs a build process to pre-render all your pages in static HTML.
-        Netlify creates its own repository that pushes to Github and its own
-        microservices. It then executes and distributes content across a wide
-        CDN to deliver pre-built static websites to visitors
-      </div>
-
-      <h2>This is the code page </h2>
+    <div className="section">
+      <h3>{item.title}</h3>
+      <p>{item.desc}</p>
     </div>
   );
 };
