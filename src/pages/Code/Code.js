@@ -16,6 +16,7 @@ export const Code = () => {
         microservices. It then executes and distributes content across a wide
         CDN to deliver pre-built static websites to visitors.
       </p>
+      <p>bdhgb</p>
     </div>
   );
 };
