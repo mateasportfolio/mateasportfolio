@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import { CodePage } from "./pages/Code/Code";
-import { Hosting } from "./pages/Hosting/Hosting";
+import { HostingPage } from "./pages/Hosting/Hosting";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -20,7 +20,7 @@ function App() {
           <CodePage />
         </Route>
         <Route path="/hosting">
-          <Hosting />
+          <HostingPage />
         </Route>
       </Switch>
     </div>

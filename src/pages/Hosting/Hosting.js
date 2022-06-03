@@ -1,10 +1,9 @@
 import React from "react";
 import "./style.css";
+import { data } from "./data";
+import { Section } from "../../components/Section/Section";
 
-export const Hosting = () => {
-  return (
-    <div className="hosting-page">
-      <h2>This is the hosting page</h2>
-    </div>
-  );
+export const HostingPage = () => {
+  const list = data.map((item) => <Section item={item} key={item.id} />);
+  return <div className="hosting-page">{list}</div>;
 };
