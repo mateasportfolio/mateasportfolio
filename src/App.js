@@ -8,14 +8,15 @@ import { HostingPage } from "./pages/Hosting/Hosting";
 import { IconButton } from "@chakra-ui/react";
 import { ChakraProvider } from "@chakra-ui/react";
 
+function MyApp({ Component, pageProps }) {
+  return (
+    <ChakraProvider>
+      <Component {...pageProps} />
+    </ChakraProvider>
+  );
+}
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
-
-  <IconButton
-    colorScheme="red"
-    aria-label="Search database"
-    icon={<SearchIcon />}
-  />;
 
   return (
     <div className={`container ${isDarkMode ? "dark" : "light"}`}>
