@@ -6,17 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import { Button } from "@chakra-ui/react";
 
-const index = () ={
-  return(
-    <div>
-    <Button>
-    this is a Button
-    </Button>
-    </div>
-  )
-}
-
-//const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <App />
@@ -27,4 +17,4 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-export default index
+export default index;

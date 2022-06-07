@@ -7,7 +7,9 @@ import { CodePage } from "./pages/Code/Code";
 import { HostingPage } from "./pages/Hosting/Hosting";
 import { IconButton } from "@chakra-ui/react";
 import { ChakraProvider } from "@chakra-ui/react";
+import { IconButton } from "@chakra-ui/react";
 
+<IconButton aria-label="Search database" icon={<SearchIcon />} />;
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
