@@ -6,6 +6,7 @@ import Home from "./pages/Home/Home";
 import { CodePage } from "./pages/Code/Code";
 import { HostingPage } from "./pages/Hosting/Hosting";
 import { IconButton } from "@chakra-ui/react";
+import { ChakraProvider } from "@chakra-ui/react";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
