@@ -10,33 +10,20 @@ import {
   theme,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
 
-function App() {
+import { Flex, VStack, Heading } from '@chakra-ui/layout';
+import { FaSun, FaMoon } from 'react-icons/fa';
+
+function App(params) {
   return (
-    <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-              This is only a example for practice.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
-      </Box>
-    </ChakraProvider>
+    <VStack p={5}>
+      <Flex w="100%">
+        <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">
+          Mateas POrtfolio App
+        </Heading>
+      </Flex>
+      <IconButton></IconButton>
+    </VStack>
   );
 }
 
