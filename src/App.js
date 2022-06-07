@@ -10,6 +10,12 @@ import { IconButton } from "@chakra-ui/react";
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
+  <IconButton
+    colorScheme="red"
+    aria-label="Search database"
+    icon={<SearchIcon />}
+  />;
+
   return (
     <div className={`container ${isDarkMode ? "dark" : "light"}`}>
       <Navbar setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} />
