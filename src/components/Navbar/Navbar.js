@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import { Button } from "@chakra-ui/react";
 
 const Navbar = ({ setIsDarkMode, isDarkMode }) => {
   return (
@@ -11,15 +12,15 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
         onClick={() => setIsDarkMode(!isDarkMode)}
       ></input>
       <ul className="links">
-        <li>
+        <Button colorScheme="cyan">
           <Link to="/">Home</Link>
-        </li>
-        <li>
+        </Button>
+        <Button colorScheme="cyan">
           <Link to="/code">Code</Link>
-        </li>
-        <li>
+        </Button>
+        <Button colorScheme="cyan">
           <Link to="/hosting">Hosting</Link>
-        </li>
+        </Button>
       </ul>
     </nav>
   );
