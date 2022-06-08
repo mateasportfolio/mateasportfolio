@@ -4,6 +4,12 @@ import { ReactComponent as EpekworksIcon } from "../../assets/epeklogo.svg";
 import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
 import Aura from "../../assets/Aura.jpeg";
 import "./style.css";
+import {
+  FormControl,
+  FormLabel,
+  FormHelperText,
+  Input,
+} from "@chakra-ui/react";
 
 const Home = () => {
   return (
@@ -63,6 +69,13 @@ const Home = () => {
             https://dulcet-tiramisu-8b2b08.netlify.app
           </a>
         </div>
+      </div>
+      <div className="third-box">
+        <FormControl colorScheme="cyan">
+          <FormLabel htmlFor="email">Email address</FormLabel>
+          <Input id="email" type="email" />
+          <FormHelperText>We'll never share your email.</FormHelperText>
+        </FormControl>
       </div>
     </div>
   );

@@ -16,6 +16,14 @@
   max-width: 1000px;
 }
 
+.third-box {
+  color: pink;
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
+}
 /* IMAGE */
 .aura-img {
   border-radius: 50%;
