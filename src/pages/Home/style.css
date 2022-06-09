@@ -57,7 +57,7 @@
 /* LINKS */
 .second-box {
   display: flex;
-  flex-direction: column;
+
   justify-content: space-evenly;
   margin: 0;
   width: 90%;
@@ -70,13 +70,12 @@
 }
 .link h3 {
   font-size: 18px;
-  margin: 10px;
 }
 
 .link a {
   color: #6b13fe;
   font-size: 18px;
-  margin: 10px;
+
   text-decoration: none;
 }
 

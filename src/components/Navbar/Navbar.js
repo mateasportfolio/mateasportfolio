@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import { Button } from "@chakra-ui/react";
+import { Button, Box, Flex } from "@chakra-ui/react";
 
 const Navbar = ({ setIsDarkMode, isDarkMode }) => {
   return (
@@ -11,7 +11,7 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
         type="checkbox"
         onClick={() => setIsDarkMode(!isDarkMode)}
       ></input>
-      <ul className="links">
+      <Flex alignItems="center" gap="2">
         <Button colorScheme="cyan">
           <Link to="/">Home</Link>
         </Button>
@@ -21,7 +21,7 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
         <Button colorScheme="cyan">
           <Link to="/hosting">Hosting</Link>
         </Button>
-      </ul>
+      </Flex>
     </nav>
   );
 };

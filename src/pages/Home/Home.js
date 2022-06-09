@@ -10,6 +10,7 @@ import {
   FormHelperText,
   Input,
 } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 const Home = () => {
   return (
@@ -38,7 +39,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="second-box">
+      <Box bg="white">
         <div className="link">
           <h3>FreeCodeCamp</h3>
           <a
@@ -50,13 +51,12 @@ const Home = () => {
           </a>
         </div>
         <div className="link">
-          <h3>LinkedIN</h3>
           <a
             href="https://www.linkedin.com/in/matea-tabak-83440a230/"
             target="_blank"
             rel="noreferrer"
           >
-            https://www.linkedin.com/in/matea-tabak-83440a230/
+            <LinkedinIcon />
           </a>
         </div>
         <div className="link">
@@ -69,7 +69,7 @@ const Home = () => {
             https://dulcet-tiramisu-8b2b08.netlify.app
           </a>
         </div>
-      </div>
+      </Box>
       <div className="third-box">
         <FormControl colorScheme="cyan">
           <FormLabel htmlFor="email">Email address</FormLabel>

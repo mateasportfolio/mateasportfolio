@@ -2,8 +2,22 @@ import React from "react";
 import "./style.css";
 import { data } from "./data";
 import { Section } from "../../components/Section/Section";
+import diagrammm from "../../assets/diagrammm.svg";
+
+//import diagramm_2_ from "../../assets/diagramm_2_.svg";
+import { Code } from "@chakra-ui/react";
 
 export const CodePage = () => {
   const list = data.map((item) => <Section item={item} key={item.id} />);
-  return <div className="code-page">{list}</div>;
+  return (
+    <div className="code-page">
+      {list};
+      <div className="first-img">
+        <img src={diagrammm} className="first-img" alt="img" />
+        <br /> <b>TODAY</b>
+      </div>
+      ;
+    </div>
+  );
 };
+export default Code;
