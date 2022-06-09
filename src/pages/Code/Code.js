@@ -12,7 +12,7 @@ export const CodePage = () => {
     <div className="code-page">
       {list};
       <div className="first-img">
-        <img src={diagrammm} className="first-img" alt="img" />
+        <img src={diagrammm} className="first-img" alt="first-img" />
         <br /> <b>TODAY</b>
       </div>
     </div>
