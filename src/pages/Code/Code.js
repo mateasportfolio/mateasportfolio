@@ -15,7 +15,6 @@ export const CodePage = () => {
         <img src={diagrammm} className="first-img" alt="img" />
         <br /> <b>TODAY</b>
       </div>
-      ;
     </div>
   );
 };
