@@ -2,7 +2,7 @@ import React from "react";
 import { ReactComponent as InstagramIcon } from "../../assets/instagram_svg.svg";
 import { ReactComponent as EpekworksIcon } from "../../assets/epeklogo.svg";
 import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
-import { ReactComponent as FreecodecampIcon } from "../../assets/freecodecamp.svg;
+import { ReactComponent as FreecodecampIcon } from "../../assets/freecodecamp.svg";
 import { ReactComponent as NetlifyIcon } from "../../assets/netlify.svg";
 import Aura from "../../assets/Aura.jpeg";
 import "./style.css";
