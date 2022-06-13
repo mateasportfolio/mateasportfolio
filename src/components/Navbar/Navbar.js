@@ -11,7 +11,7 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
         type="checkbox"
         onClick={() => setIsDarkMode(!isDarkMode)}
       ></input>
-      <Stack direction="row" spacing={12} align="flex-end">
+      <Stack direction="row" spacing={12} align="baseline">
         <Button
           colorScheme="pink"
           loadingText="Loading"

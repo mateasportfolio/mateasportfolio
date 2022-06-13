@@ -7,7 +7,7 @@
 }
 
 .main-box {
-  background-color: lightpink;
+  background-color: #d53f8c;
   border: 2px solid #000000;
   margin-bottom: 40px;
   position: relative;
@@ -17,7 +17,7 @@
 }
 
 .email-box {
-  background-color: lightpink;
+  background-color: #d53f8c;
   margin: 30px;
   position: relative;
   text-align: center;
