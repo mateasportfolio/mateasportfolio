@@ -72,8 +72,8 @@ const Home = () => {
           </div>
         </div>
       </Box>
-      <div className="third-box">
-        <FormControl colorScheme="cyan">
+      <div className="email-box">
+        <FormControl colorScheme="pink">
           <FormLabel htmlFor="email">Email address</FormLabel>
           <Input id="email" type="email" />
           <FormHelperText>We'll never share your email.</FormHelperText>
