@@ -16,13 +16,25 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
           colorScheme="pink"
           loadingText="Loading"
           spinnerPlacement="start"
+          iconSpacing="-1.5"
         >
           <Link to="/">Home</Link>
         </Button>
-        <Button colorScheme="pink">
+
+        <Button
+          colorScheme="pink"
+          loadingText="Loading"
+          spinnerPlacement="start"
+          iconSpacing="-1.5"
+        >
           <Link to="/code">Code</Link>
         </Button>
-        <Button colorScheme="pink">
+        <Button
+          colorScheme="pink"
+          loadingText="Loading"
+          spinnerPlacement="start"
+          iconSpacing="-1.5"
+        >
           <Link to="/hosting">Hosting</Link>
         </Button>
       </Stack>
