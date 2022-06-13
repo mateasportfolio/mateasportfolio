@@ -12,13 +12,13 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
         onClick={() => setIsDarkMode(!isDarkMode)}
       ></input>
       <Box alignItems="center" gap="2">
-        <Button colorScheme="cyan">
+        <Button colorScheme="pink">
           <Link to="/">Home</Link>
         </Button>
-        <Button colorScheme="cyan">
+        <Button colorScheme="pink">
           <Link to="/code">Code</Link>
         </Button>
-        <Button colorScheme="cyan">
+        <Button colorScheme="pink">
           <Link to="/hosting">Hosting</Link>
         </Button>
       </Box>

@@ -2,6 +2,8 @@ import React from "react";
 import { ReactComponent as InstagramIcon } from "../../assets/instagram_svg.svg";
 import { ReactComponent as EpekworksIcon } from "../../assets/epeklogo.svg";
 import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
+import { ReactComponent as FreecodecampIcon } from "../../assets/freecodecamp.svg;
+import { ReactComponent as NetlifyIcon } from "../../assets/netlify.svg";
 import Aura from "../../assets/Aura.jpeg";
 import "./style.css";
 import {
@@ -40,33 +42,34 @@ const Home = () => {
       </div>
 
       <Box bg="white">
-        <div className="link">
-          <a
-            href="https://www.freecodecamp.org/matea"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <freeCodeCampIcon />
-          </a>
-        </div>
-        <div className="link">
-          <a
-            href="https://www.linkedin.com/in/matea-tabak-83440a230/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <LinkedinIcon />
-          </a>
-        </div>
-        <div className="link">
-          <h3>Netlify</h3>
-          <a
-            href="https://dulcet-tiramisu-8b2b08.netlify.app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            https://dulcet-tiramisu-8b2b08.netlify.app
-          </a>
+        <div className="icons">
+          <div className="link">
+            <a
+              href="https://www.freecodecamp.org/matea"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FreecodecampIcon />
+            </a>
+          </div>
+          <div className="link">
+            <a
+              href="https://www.linkedin.com/in/matea-tabak-83440a230/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedinIcon />
+            </a>
+          </div>
+          <div className="link">
+            <a
+              href="https://dulcet-tiramisu-8b2b08.netlify.app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <NetlifyIcon />
+            </a>
+          </div>
         </div>
       </Box>
       <div className="third-box">
