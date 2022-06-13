@@ -9,3 +9,4 @@ export const Section = ({ item }) => {
     </div>
   );
 };
+export default Section;

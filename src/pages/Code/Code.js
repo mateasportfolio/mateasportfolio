@@ -13,9 +13,10 @@ export const CodePage = () => {
       {list};
       <div className="first-img">
         <img src={diagrammm} className="first-img" alt="first-img" />
-        <br /> <b>TODAY</b>
+        <br /> <b></b>
       </div>
     </div>
   );
 };
+
 export default Code;

@@ -41,13 +41,12 @@ const Home = () => {
 
       <Box bg="white">
         <div className="link">
-          <h3>FreeCodeCamp</h3>
           <a
             href="https://www.freecodecamp.org/matea"
             target="_blank"
             rel="noreferrer"
           >
-            https://www.freecodecamp.org/matea
+            <freeCodeCampIcon />
           </a>
         </div>
         <div className="link">
