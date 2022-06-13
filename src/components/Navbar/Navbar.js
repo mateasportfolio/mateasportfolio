@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import { Button, Box } from "@chakra-ui/react";
+import { Button, Stack } from "@chakra-ui/react";
 
 const Navbar = ({ setIsDarkMode, isDarkMode }) => {
   return (
@@ -11,8 +11,12 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
         type="checkbox"
         onClick={() => setIsDarkMode(!isDarkMode)}
       ></input>
-      <Box alignItems="center" gap="2">
-        <Button colorScheme="pink">
+      <Stack direction="row" spacing={12} align="center">
+        <Button
+          colorScheme="pink"
+          loadingText="Loading"
+          spinnerPlacement="start"
+        >
           <Link to="/">Home</Link>
         </Button>
         <Button colorScheme="pink">
@@ -21,7 +25,7 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
         <Button colorScheme="pink">
           <Link to="/hosting">Hosting</Link>
         </Button>
-      </Box>
+      </Stack>
     </nav>
   );
 };
