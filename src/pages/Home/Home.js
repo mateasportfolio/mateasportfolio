@@ -3,7 +3,7 @@ import { ReactComponent as InstagramIcon } from "../../assets/instagram_svg.svg"
 import { ReactComponent as EpekworksIcon } from "../../assets/epeklogo.svg";
 import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
 import { ReactComponent as FreecodecampIcon } from "../../assets/freecodecamp.svg";
-import { ReactComponent as NetlifyIcon } from "../../assets/netlify.svg";
+import { ReactComponent as N } from "../../assets/netlify.svg";
 import Aura from "../../assets/Aura.jpeg";
 import "./style.css";
 import {
@@ -72,8 +72,8 @@ const Home = () => {
           </div>
         </div>
       </Box>
-      <div className="email-box">
-        <FormControl colorScheme="pink">
+      <div className="third-box">
+        <FormControl colorScheme="cyan">
           <FormLabel htmlFor="email">Email address</FormLabel>
           <Input id="email" type="email" />
           <FormHelperText>We'll never share your email.</FormHelperText>
