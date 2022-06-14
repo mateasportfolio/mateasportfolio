@@ -11,7 +11,7 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
         type="checkbox"
         onClick={() => setIsDarkMode(!isDarkMode)}
       ></input>
-      <Stack direction="row" spacing={12} align="baseline">
+      <Stack direction="row" spacing={8} align="center">
         <Button
           colorScheme="pink"
           loadingText="Loading"
@@ -34,6 +34,7 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
           loadingText="Loading"
           spinnerPlacement="start"
           iconSpacing="-1.5"
+          variant="solid"
         >
           <Link to="/hosting">Hosting</Link>
         </Button>

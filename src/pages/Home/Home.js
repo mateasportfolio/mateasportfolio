@@ -3,7 +3,7 @@ import { ReactComponent as InstagramIcon } from "../../assets/instagram_svg.svg"
 import { ReactComponent as EpekworksIcon } from "../../assets/epeklogo.svg";
 import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
 import { ReactComponent as FreecodecampIcon } from "../../assets/freecodecamp.svg";
-import { ReactComponent as N } from "../../assets/netlify.svg";
+import { ReactComponent as NetlifyIcon } from "../../assets/netlify.svg";
 import Aura from "../../assets/Aura.jpeg";
 import "./style.css";
 import {
@@ -12,7 +12,8 @@ import {
   FormHelperText,
   Input,
 } from "@chakra-ui/react";
-import { Box } from "@chakra-ui/react";
+import { Box, Stack } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 
 const Home = () => {
   return (
@@ -40,8 +41,40 @@ const Home = () => {
           <LinkedinIcon />
         </div>
       </div>
+      <Stack spacing={3}>
+        <Text textColor="white" fontSize="6xl">
+          (6xl) In love with React & Next
+        </Text>
+        <Text textColor="white" fontSize="5xl">
+          (5xl) In love with React & Next
+        </Text>
+        <Text textColor="white" fontSize="4xl">
+          (4xl) In love with React & Next
+        </Text>
+        <Text textColor="white" fontSize="3xl">
+          (3xl) In love with React & Next
+        </Text>
+        <Text textColor="white" fontSize="2xl">
+          (2xl) In love with React & Next
+        </Text>
+        <Text textColor="white" fontSize="xl">
+          (xl) In love with React & Next
+        </Text>
+        <Text textColor="white" fontSize="lg">
+          (lg) In love with React & Next
+        </Text>
+        <Text textColor="white" fontSize="md">
+          (md) In love with React & Next
+        </Text>
+        <Text textColor="white" fontSize="sm">
+          (sm) In love with React & Next
+        </Text>
+        <Text textColor="white" fontSize="xs">
+          (xs) In love with React & Next
+        </Text>
+      </Stack>
 
-      <Box bg="white">
+      <Box bg="white" w="60%" h="10%" p={6} color="white">
         <div className="icons">
           <div className="link">
             <a
@@ -72,7 +105,7 @@ const Home = () => {
           </div>
         </div>
       </Box>
-      <div className="third-box">
+      <div className="email-box">
         <FormControl colorScheme="cyan">
           <FormLabel htmlFor="email">Email address</FormLabel>
           <Input id="email" type="email" />
