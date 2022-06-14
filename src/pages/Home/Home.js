@@ -31,7 +31,7 @@ const Home = () => {
           </p>
           <p>
             Im a <b>Free Spirit</b> ,interested into <b>Art</b>,learning{" "}
-            <b>new Skills and Technology</b>
+            <b>new Skills and Technology.</b>
           </p>
         </div>
         <div className="icons">
