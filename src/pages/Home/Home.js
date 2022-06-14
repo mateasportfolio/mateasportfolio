@@ -12,9 +12,8 @@ import {
   FormHelperText,
   Input,
 } from "@chakra-ui/react";
-import { Box, Stack } from "@chakra-ui/react";
-import { Text } from "@chakra-ui/react";
-
+import { Box } from "@chakra-ui/react";
+import { Grid, GridItem } from "@chakra-ui/react";
 const Home = () => {
   return (
     <div className="home-page">
@@ -41,40 +40,59 @@ const Home = () => {
           <LinkedinIcon />
         </div>
       </div>
-      <Stack spacing={3}>
-        <Text textColor="white" fontSize="6xl">
-          (6xl) In love with React & Next
-        </Text>
-        <Text textColor="white" fontSize="5xl">
-          (5xl) In love with React & Next
-        </Text>
-        <Text textColor="white" fontSize="4xl">
-          (4xl) In love with React & Next
-        </Text>
-        <Text textColor="white" fontSize="3xl">
-          (3xl) In love with React & Next
-        </Text>
-        <Text textColor="white" fontSize="2xl">
-          (2xl) In love with React & Next
-        </Text>
-        <Text textColor="white" fontSize="xl">
-          (xl) In love with React & Next
-        </Text>
-        <Text textColor="white" fontSize="lg">
-          (lg) In love with React & Next
-        </Text>
-        <Text textColor="white" fontSize="md">
-          (md) In love with React & Next
-        </Text>
-        <Text textColor="white" fontSize="sm">
-          (sm) In love with React & Next
-        </Text>
-        <Text textColor="white" fontSize="xs">
-          (xs) In love with React & Next
-        </Text>
-      </Stack>
+      <Grid
+        templateAreas={`"header header"
+                  "nav main"
+                  "nav footer"`}
+        gridTemplateRows={"300px 1fr 400px"}
+        gridTemplateColumns={"700px 1fr"}
+        h="00px"
+        gap="1"
+        color="blackAlpha.700"
+        fontWeight="bold"
+      >
+        <GridItem
+          pl="2"
+          bg="orange.300"
+          area={"header"}
+          spacing="3"
+          textColor="white"
+          fontSize="6xl"
+        >
+          Chakra-UI /In love with React & Coding
+        </GridItem>
+        <GridItem
+          pl="2"
+          bg="pink.300"
+          area={"nav"}
+          spacing="3"
+          textColor="white"
+          fontSize="3xl"
+        >
+          React.js /In love with React & Coding
+        </GridItem>
+        <GridItem
+          pl="2"
+          bg="green.300"
+          area={"main"}
+          spacing="3"
+          textColor="white"
+          fontSize="xl"
+        >
+          Node.js /In love with React & Coding
+        </GridItem>
+        <GridItem
+          pl="2"
+          bg="blue.300"
+          area={"footer"}
+          spacing="3"
+          textColor="white"
+        >
+          Java Script /In love with React & Coding
+        </GridItem>
+      </Grid>
 
-      <Box bg="white" w="60%" h="10%" p={6} color="white">
+      <Box bg="ghost" w="60%" h="10%" p={6} color="white">
         <div className="icons">
           <div className="link">
             <a

@@ -13,7 +13,9 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
       ></input>
       <Stack direction="row" spacing={8} align="center">
         <Button
-          colorScheme="pink"
+          variant="outline"
+          size="lg"
+          colorScheme="White"
           loadingText="Loading"
           spinnerPlacement="start"
           iconSpacing="-1.5"
@@ -22,7 +24,9 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
         </Button>
 
         <Button
-          colorScheme="pink"
+          variant="outline"
+          size="lg"
+          colorScheme="white"
           loadingText="Loading"
           spinnerPlacement="start"
           iconSpacing="-1.5"
@@ -30,11 +34,12 @@ const Navbar = ({ setIsDarkMode, isDarkMode }) => {
           <Link to="/code">Code</Link>
         </Button>
         <Button
-          colorScheme="pink"
+          variant="outline"
+          size="lg"
+          colorScheme="white"
           loadingText="Loading"
           spinnerPlacement="start"
           iconSpacing="-1.5"
-          variant="solid"
         >
           <Link to="/hosting">Hosting</Link>
         </Button>
