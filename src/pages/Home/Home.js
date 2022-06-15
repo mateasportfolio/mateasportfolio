@@ -1,6 +1,5 @@
 import React from "react";
 
-import { ReactComponent as EpekworksIcon } from "../../assets/epeklogo.svg";
 import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
 import { ReactComponent as FreecodecampIcon } from "../../assets/freecodecamp.svg";
 import { ReactComponent as NetlifyIcon } from "../../assets/netlify.svg";
@@ -39,8 +38,6 @@ const Home = () => {
                 <FreecodecampIcon />
               </a>
             </div>
-
-            <EpekworksIcon />
 
             <div className="link">
               <a
