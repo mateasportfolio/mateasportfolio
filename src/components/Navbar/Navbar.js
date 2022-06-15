@@ -6,14 +6,14 @@ import { Button, Flex, Spacer } from "@chakra-ui/react";
 const Navbar = ({ setIsDarkMode, isDarkMode }) => {
   return (
     <Flex>
-      <Button variant="outline" size="lg" colorScheme="White" margin="4">
+      <Button variant="outline" size="lg" color="white" margin="4">
         <Link to="/">Home</Link>
       </Button>
 
-      <Button variant="outline" size="lg" colorScheme="white" margin="4">
+      <Button variant="outline" size="lg" color="white" margin="4">
         <Link to="/code">Code</Link>
       </Button>
-      <Button variant="outline" size="lg" colorScheme="white" margin="4">
+      <Button variant="outline" size="lg" color="white" margin="4">
         <Link to="/hosting">Hosting</Link>
       </Button>
       <Spacer />
