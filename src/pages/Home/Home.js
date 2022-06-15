@@ -1,8 +1,8 @@
 import React from "react";
-
 import { ReactComponent as LinkedinIcon } from "../../assets/linkedin.svg";
 import { ReactComponent as FreecodecampIcon } from "../../assets/freecodecamp.svg";
 import { ReactComponent as NetlifyIcon } from "../../assets/netlify.svg";
+import { ReactComponent as EpekworksIcon } from "../../assets/epekworksicon.svg";
 import Aura from "../../assets/Aura.jpeg";
 import "./style.css";
 import { Box } from "@chakra-ui/react";
@@ -29,6 +29,16 @@ const Home = () => {
         </div>
         <Box>
           <div className="icons">
+            <div className="link">
+              <a
+                href="https://epekworks.com/project/53a049fc-779b-4841-a540-0b22a9740174"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <EpekworksIcon />
+              </a>
+            </div>
+
             <div className="link">
               <a
                 href="https://www.freecodecamp.org/matea"

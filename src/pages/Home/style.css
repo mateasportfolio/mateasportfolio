@@ -8,10 +8,11 @@
 
 .main-box {
   background-color: #f5f5f5;
-  border: 2px solid #f5f5f5;
+  border: 2px solid #d379bc;
+  padding: 35px 0px 35px 0px;
   margin-bottom: 40px;
   position: relative;
-  text-align: center;
+  text-align: right;
   width: 100px;
   justify-content: space-between;
 }
@@ -48,17 +49,6 @@
 }
 /* LINKS */
 
-.link h3 {
-  font-size: 18px;
-}
-
-.link a {
-  color: #6b13fe;
-  font-size: 18px;
-
-  text-decoration: none;
-}
-
 @media screen and (min-width: 1000px) {
   .main-box {
     height: 700px;
@@ -72,9 +62,12 @@
   }
   .icons {
     width: 400px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px 40px 10px 40px;
+    height: 250px;
   }
   .icons svg {
-    width: 100px;
+    width: 150px;
   }
   .icons svg:nth-last-of-type(2) {
     width: 135px;
