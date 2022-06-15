@@ -27,6 +27,7 @@ const Home = () => {
             <b>new Skills and Technology.</b>
           </p>
         </div>
+
         <Box>
           <div className="icons">
             <div className="link">
