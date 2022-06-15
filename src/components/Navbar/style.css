@@ -37,11 +37,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-
-  position: absolute;
-  right: 40px;
-  top: 50%;
-  transform: translateY(-50%);
+  margin: 20px;
 }
 .l:before,
 .l:after {

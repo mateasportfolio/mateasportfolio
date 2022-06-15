@@ -1,50 +1,29 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-import { Button, Stack } from "@chakra-ui/react";
+import { Button, Flex, Spacer } from "@chakra-ui/react";
 
 const Navbar = ({ setIsDarkMode, isDarkMode }) => {
   return (
-    <nav className="navbar">
+    <Flex>
+      <Button variant="outline" size="lg" colorScheme="White" margin="4">
+        <Link to="/">Home</Link>
+      </Button>
+
+      <Button variant="outline" size="lg" colorScheme="white" margin="4">
+        <Link to="/code">Code</Link>
+      </Button>
+      <Button variant="outline" size="lg" colorScheme="white" margin="4">
+        <Link to="/hosting">Hosting</Link>
+      </Button>
+      <Spacer />
+
       <input
         class="l"
         type="checkbox"
         onClick={() => setIsDarkMode(!isDarkMode)}
       ></input>
-      <Stack direction="row" spacing={8} align="center">
-        <Button
-          variant="outline"
-          size="lg"
-          colorScheme="White"
-          loadingText="Loading"
-          spinnerPlacement="start"
-          iconSpacing="-1.5"
-        >
-          <Link to="/">Home</Link>
-        </Button>
-
-        <Button
-          variant="outline"
-          size="lg"
-          colorScheme="white"
-          loadingText="Loading"
-          spinnerPlacement="start"
-          iconSpacing="-1.5"
-        >
-          <Link to="/code">Code</Link>
-        </Button>
-        <Button
-          variant="outline"
-          size="lg"
-          colorScheme="white"
-          loadingText="Loading"
-          spinnerPlacement="start"
-          iconSpacing="-1.5"
-        >
-          <Link to="/hosting">Hosting</Link>
-        </Button>
-      </Stack>
-    </nav>
+    </Flex>
   );
 };
 
