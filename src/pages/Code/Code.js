@@ -20,7 +20,7 @@ export const CodePage = () => {
   }, []);
   return (
     <div className="code-page">
-      {list}
+      {list};
       <div className="first-img">
         <div ref={container}></div>
         <img src={diagrammm} className="first-img" alt="first-img" />
