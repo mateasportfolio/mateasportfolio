@@ -3,7 +3,6 @@ import "./style.css";
 import { data } from "./data";
 import { Section } from "../../components/Section/Section";
 import diagrammm from "../../assets/diagrammm.svg";
-
 import { Code } from "@chakra-ui/react";
 
 export const CodePage = () => {

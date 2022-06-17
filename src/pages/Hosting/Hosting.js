@@ -10,8 +10,8 @@ export const HostingPage = () => {
     <div className="hosting-page">
       {list}
 
-      <div className="second-img">
-        <img src={diagrammm2} className="second-img" alt="second-img" />
+      <div className="diagramm2">
+        <img src={diagrammm2} className="diagramm" alt="second-img" />
         <br /> <b></b>
       </div>
     </div>

@@ -6,8 +6,21 @@ import { ReactComponent as EpekworksIcon } from "../../assets/epekworksicon.svg"
 import Aura from "../../assets/Aura.jpeg";
 import "./style.css";
 import { Box } from "@chakra-ui/react";
+import lottie from "lottie-web";
+import Animation from "./Animation.json";
+
+import { useEffect, useRef } from "react";
 
 const Home = () => {
+  const container = useRef(null);
+
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: container.current,
+      animationData: Animation,
+    });
+  }, []);
+
   return (
     <div className="home-page">
       <div className="main-box">
@@ -70,6 +83,10 @@ const Home = () => {
             </div>
           </div>
         </Box>
+
+        <div ref={container}>
+          <h1>Lottie Animation</h1>
+        </div>
       </div>
     </div>
   );
