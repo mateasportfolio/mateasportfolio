@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { data } from "./data";
-import diagrammm2 from "../../assets/diagrammm2.svg";
+import diagramm_3 from "../../assets/diagramm_3.svg";
 import Section from "../../components/Section/Section";
 
 export const HostingPage = () => {
@@ -11,7 +11,7 @@ export const HostingPage = () => {
       {list}
 
       <div className="diagramm2">
-        <img src={diagrammm2} className="diagramm" alt="second-img" />
+        <img src={diagramm_3} className="diagramm" alt="second-img" />
         <br /> <b></b>
       </div>
     </div>

@@ -8,6 +8,7 @@ import "./style.css";
 import { Box } from "@chakra-ui/react";
 import lottie from "lottie-web";
 import Animation from "./Animation.json";
+
 import { useEffect, useRef } from "react";
 
 const Home = () => {
@@ -83,7 +84,7 @@ const Home = () => {
           </div>
         </Box>
 
-        <div ref={container}></div>
+        <div ref={container} paddingbottom={10}></div>
       </div>
     </div>
   );
