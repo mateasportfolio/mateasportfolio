@@ -55,21 +55,7 @@ const Home = () => {
             and Technology.
           </Heading>
         </Box>
-        {/* <h1>Welcome</h1>
-          <p>
-            I’m<b> Matea</b>
-          </p>
-          <p>
-            I'm a future Mediadesigner / Webdesigner,I am having an Internship
-            at
-            <b> epekworks.com.</b>
-          </p>
-          <p>
-            Im a <b>Free Spirit</b> ,interested into <b>Art</b>,learning{" "}
-            <b>new Skills and Technology.</b>
-          </p>
-        </div> */}
-        <Box p={(40, 0, 40, 20)} bg="white" color="white">
+        <Box>
           <div className="icons">
             <div className="link">
               <a
@@ -111,7 +97,7 @@ const Home = () => {
             </div>
           </div>
         </Box>
-        <div ref={container} paddingbottom={10}></div>
+        <div ref={container} p={10} m={200}></div>{" "}
       </div>
     </div>
   );
