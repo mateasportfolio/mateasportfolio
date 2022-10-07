@@ -48,11 +48,11 @@ const Home = () => {
               bgClip="text"
               fontWeight="semibold"
             >
-              I'm a future Mediadesigner/Webdesigner,I am having an Internship
-              at epekworks.com.
+              I'm a future Mediadesigner/Webdesigner,
+              <p>I am having an Internship at epekworks.com.</p>
             </Text>
-            Im a Free Spirit, interested into Art, Music, learning new Skills
-            and Technology.
+            Im a Free Spirit,interested into Art, Music, learning new skills and
+            Technology.
           </Heading>
         </Box>
         <Box>
