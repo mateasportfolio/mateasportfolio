@@ -8,8 +8,8 @@ import "./style.css";
 import { Box } from "@chakra-ui/react";
 import lottie from "lottie-web";
 import Animation from "./Animation.json";
-
 import { useEffect, useRef } from "react";
+import { Heading, Text } from "@chakra-ui/react";
 
 const Home = () => {
   const container = useRef(null);
@@ -22,11 +22,40 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home-page">
-      <div className="main-box">
-        <img src={Aura} className="aura-img" alt="main-img" />
-        <div className="info">
-          <h1>Welcome</h1>
+    //<div className="home-page">
+    <div className="main-box">
+      <img src={Aura} className="aura-img" alt="main-img" />
+      <div className="info">
+        <Heading
+          fontSize="6xl"
+          bgGradient="linear(to-l, #7928CA, #FF0080)"
+          bgClip="text"
+          fontWeight="extrabold"
+        >
+          Welcome
+        </Heading>
+        <Box maxW="32rem">
+          <Heading
+            fontSize="xl"
+            bgGradient="linear(to-l, #7928CA, #FF0080)"
+            bgClip="text"
+            fontWeight="semibold"
+          >
+            I’m Matea,
+            <Text
+              fontSize="xl"
+              bgGradient="linear(to-l, #7928CA, #FF0080)"
+              bgClip="text"
+              fontWeight="semibold"
+            >
+              I'm a future Mediadesigner/Webdesigner,I am having an Internship
+              at epekworks.com.
+            </Text>
+            Im a Free Spirit, interested into Art, Music, learning new Skills
+            and Technology.
+          </Heading>
+        </Box>
+        {/* <h1>Welcome</h1>
           <p>
             I’m<b> Matea</b>
           </p>
@@ -39,9 +68,8 @@ const Home = () => {
             Im a <b>Free Spirit</b> ,interested into <b>Art</b>,learning{" "}
             <b>new Skills and Technology.</b>
           </p>
-        </div>
-
-        <Box>
+        </div> */}
+        <Box p={(40, 0, 40, 20)} bg="white" color="white">
           <div className="icons">
             <div className="link">
               <a
@@ -83,7 +111,6 @@ const Home = () => {
             </div>
           </div>
         </Box>
-
         <div ref={container} paddingbottom={10}></div>
       </div>
     </div>
