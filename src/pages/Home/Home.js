@@ -49,7 +49,7 @@ const Home = () => {
               fontWeight="semibold"
             >
               I'm a future Mediadesigner/Webdesigner,
-              <p>I am having an Internship at epekworks.com.</p>
+              <p>having an Internship at epekworks.com.</p>
             </Text>
             Im a Free Spirit,interested into Art, Music, learning new skills and
             Technology.
